@@ -1,0 +1,5 @@
+
+
+www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com###rich-shelf-header
+www.youtube.com###foreground-content
