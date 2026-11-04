@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Pete's list
 ! Description: Personal blocking rules
-! Version: 2026.11.03
-! Last modified: 2026-11-03 18:28
+! Version: 2026.11.04
+! Last modified: 2026-11-04 18:28
 ! Expires: 4 days
 ! Homepage: https://github.com/peteh/ublock-filters
 ! License: https://github.com/peteh/ublock-filters/blob/main/LICENSE
@@ -14,9 +14,13 @@
 
 ## YOUTUBE
 
-# Remove playables
+# Remove playables on main page
 www.youtube.com###contents-container > .ytd-rich-shelf-renderer.style-scope
 
-# Remove Shorts
+# Remove shorts on main page
 www.youtube.com###rich-shelf-header
 www.youtube.com###foreground-content
+
+# Remove shorts on side of video
+www.youtube.com###scroll-container > .yt-horizontal-list-renderer.style-scope
+
